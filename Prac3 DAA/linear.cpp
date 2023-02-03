@@ -14,7 +14,7 @@ int main(void)
 {
     int arr[] = {2, 3, 4, 10, 40};
     int x = 10;
-    int N = sizeof(arr) / sizeof(arr[0]);
+    int N = arr.size();
 
     int result = search(arr, N, x);
     (result == -1)
